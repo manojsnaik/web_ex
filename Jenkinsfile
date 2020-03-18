@@ -21,7 +21,7 @@ pipeline {
     stages {
         stage('Clone sources'){
             steps {
-                git url: 'https://github.com/Anusha-DevOp/web_ex'
+                git url: 'https://github.com/manojsnaik/web_ex'
             }
         }
 
